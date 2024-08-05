@@ -1,0 +1,21 @@
+.availability {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.availability form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.availability input,
+.availability select,
+.availability button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    margin: 5px;
+}

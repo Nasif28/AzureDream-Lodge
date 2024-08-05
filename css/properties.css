@@ -1,0 +1,38 @@
+.properties {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.properties h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.properties .property {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.properties .property img {
+  width: 100%;
+  height: auto;
+}
+
+.properties .property .info {
+  padding: 10px;
+}
+
+.properties .property .info h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.properties .property .info p {
+  font-size: 1em;
+  margin-bottom: 5px;
+}

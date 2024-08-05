@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Urbanist", "Playfair Display", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* width: 100%; */
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #ceaf83;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21.6px;
+  border-radius: 177px;
+}
+
+.btn-light {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px 26px 15px 26px;
+  gap: 10px;
+  border-radius: 30px;
+  background: #eee5d8;
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #ceaf83;
+}
+
+/* -------------- Header ------------------ */
+header {
+  height: 100px;
+  padding-top: 3px;
+  box-shadow: 0px 4px 20px 2px rgba(16, 30, 87, 0.07);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 91px;
+  width: auto;
+}
+
+header nav {
+  display: flex;
+  gap: 60px;
+}
+
+header nav a {
+  text-decoration: none;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: #4d4d4d;
+}
+
+header nav a:hover {
+  color: #000000;
+}
+
+header .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+header .login_account {
+  display: flex;
+  flex-direction: row;
+  margin-right: 18px;
+}
+
+header .account-circle {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  /* opacity: 0px; */
+  /* background-color: #ceaf83; */
+}
+
+header .login-signup {
+  text-decoration: none;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: #4d4d4d;
+}
+
+/* ---------------- Hero Section ------------------- */
+.hero {
+  margin-top: 72px;
+}
+
+.hero .container {
+  display: flex;
+}
+
+.hero .hero-left {
+  margin-top: 60px;
+}
+
+.hero h1 {
+  font-family: Playfair Display;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 82px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.hero h1 span {
+  color: #ceaf83;
+}
+
+.hero p {
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  color: #4d4d4d;
+  margin-bottom: 44px;
+}
+
+.hero .tags {
+  width: 590px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+.hero .tags h6 {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: center;
+  color: #4d4d4d;
+}
+.hero .tags .divider {
+  height: 19px;
+  opacity: 0.4;
+  border-left: 0.5px solid rgb(255, 255, 255);
+}
+
+.hero .tags:hover .divider {
+  border-left: 0.5px solid rgb(100, 100, 100);
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.circle {
+  width: 52px;
+  height: 52px;
+  background-image: url("./../images//Button-Img.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 14px 0 44px;
+}
+
+.circle .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle .overlay .play-button {
+  padding: 2px 0 0 2px;
+}
+
+.hero-btn h5 {
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.hero-filter h5 {
+  font-family: Playfair Display;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 22px;
+}
+.filter {
+  width: 1102px;
+  height: 113px;
+  background-color: antiquewhite;
+  /* border: 1px solid rgba(202, 202, 202, 1); */
+  border-radius: 106px;
+  box-shadow: 0px 4px 20px 2px rgba(16, 30, 87, 0.07);
+  position: absolute;
+  z-index: 10;
+}

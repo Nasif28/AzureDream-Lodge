@@ -1,0 +1,27 @@
+.reviews {
+  padding: 50px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.reviews .review {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+.reviews .review .author {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.reviews .review .text {
+  font-size: 1em;
+  color: #666;
+}
