@@ -10,15 +10,13 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 20px;
   }
 
   header nav {
     flex-direction: row;
   }
 
-  header .nav-right {
-    flex-direction: column;
-  }
   .hero .container {
     display: flex;
     flex-direction: column;
@@ -27,16 +25,23 @@
   .hero .tags .divider {
     display: none;
   }
-
+  .hero .tags {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* margin-bottom: 44px; */
+  }
   .hero-filter {
     display: none;
   }
   .hero-right img {
     width: 100%;
+    margin: 0 auto;
   }
 
-  .properties .container {
-    /* padding: 0 20px; */
+  .properties {
+    padding: 85px 0;
   }
 
   .grid-container1,
@@ -54,14 +59,32 @@
     width: 100%;
   }
 
-  .reviews .left .box {
-    padding: 20px;
+  .reviews .left {
+    padding: 2px;
     width: auto;
   }
 
+  .reviews .right {
+    width: 100%;
+    padding: 20px;
+  }
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .testimonial-text {
+    text-align: left;
+  }
   .footer .container {
     width: 100%;
     padding: 0 20px;
+  }
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
   }
 
   .footer-links {
@@ -83,12 +106,31 @@
   header nav {
     gap: 30px;
   }
+  header {
+    height: auto;
+  }
 
+  header .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  .hero-right img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hero .container {
+    display: flex;
+    flex-direction: column;
+  }
   .hero h1 {
     font-size: 60px;
     line-height: 72px;
   }
-
+  .hero-filter {
+    display: none;
+  }
   .filter {
     flex-direction: column;
     height: auto;
@@ -139,7 +181,27 @@
   .container {
     width: 90%;
   }
+  header {
+    height: auto;
+  }
 
+  header .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  .hero-filter {
+    display: none;
+  }
+  .hero-right img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hero .container {
+    display: flex;
+    flex-direction: column;
+  }
   .hero h1 {
     font-size: 72px;
     line-height: 82px;
@@ -147,7 +209,7 @@
 
   .hero .tags {
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
   }
 
@@ -193,7 +255,7 @@
     position: relative;
   }
 
-  .reviews .nav-controls button{
+  .reviews .nav-controls button {
     margin: 0 auto;
   }
 
