@@ -159,7 +159,6 @@ header .login-signup:hover {
   font-size: 18px;
   font-weight: 500;
   line-height: 23px;
-  text-align: left;
   color: #4d4d4d;
   margin-bottom: 44px;
 }
@@ -719,11 +718,11 @@ header .login-signup:hover {
   font-weight: 600;
   line-height: 34px;
   background-color: #1f1f1f;
-  height: 57px;
+  min-height: 57px;
 }
 
 .footer-bottom .last-footer {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-top: 10px;
   display: flex;
